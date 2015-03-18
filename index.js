@@ -7,7 +7,7 @@ out.lineHeight = '1.5';
 out.headingFontFamily = out.fontFamily;
 out.headingFontWeight = 'bold';
 out.headingLineHeight = '1.25';
-out.monospaceFontFamily = "'Source Code Pro'; Consolas, monospace",
+out.monospaceFontFamily = "'Source Code Pro', Consolas, monospace",
 out.h1 = '2rem';
 out.h2 = '1.5rem';
 out.h3 = '1.25rem';
@@ -70,4 +70,4 @@ out.shadow3 = '0 13px 25px hsla(0, 0%, 0%, 0.3), 0 11px 7px hsla(0, 0%, 0%, 0.19
 out.shadow4 = '0 20px 40px hsla(0, 0%, 0%, 0.3), 0 14px 12px hsla(0, 0%, 0%, 0.17)';
 out.shadow5 = '0 27px 55px hsla(0, 0%, 0%, 0.3), 0 17px 17px hsla(0, 0%, 0%, 0.15)';
 
-module.exports = out;
+exports['default'] = module.exports = out;
