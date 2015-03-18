@@ -38,6 +38,7 @@ out.color.red = 'hsl(2, 69%, 59%)';
 out.color.orange = 'hsl(35, 80%, 58%)';
 out.color.yellow = 'hsl(49, 75%, 50%)';
 out.color.green = 'hsl(154, 48%, 54%)';
+out.color.lightGreen = 'hsl(76, 58%, 61%)';
 out.color.blue = 'hsl(220, 60%, 62%)';
 out.color.cyan = 'hsl(181, 48%, 58%)';
 out.color.violet = 'hsl(271, 54%, 58%)';
