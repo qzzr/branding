@@ -1,12 +1,12 @@
 {
-  "toolbar_bg": "hsl(0, 0%, 100%)",
-  "toolbar_color": "hsl(271, 54%, 58%)",
-  "toolbar_button_bg": "hsl(0, 0%, 100%)",
-  "toolbar_button_color": "hsl(271, 54%, 58%)",
-  "toolbar_button_hover_bg": "hsl(271, 54%, 58%)",
-  "toolbar_button_hover_color": "hsl(0, 0%, 100%)",
-  "toolbar_button_active_bg": "hsl(271, 54%, 49%)",
-  "toolbar_button_active_color": "hsl(0, 0%, 100%)",
+  "toolbar_bg": "hsl(271, 54%, 58%)",
+  "toolbar_color": "hsl(0, 0%, 100%)",
+  "toolbar_button_bg": "hsl(271, 54%, 58%)",
+  "toolbar_button_color": "hsl(0, 0%, 100%)",
+  "toolbar_button_hover_bg": "hsl(0, 0%, 100%)",
+  "toolbar_button_hover_color": "hsl(271, 54%, 58%)",
+  "toolbar_button_active_bg": "hsl(0, 0%, 100%)",
+  "toolbar_button_active_color": "hsl(271, 54%, 58%)",
   "color_primary": "hsl(271, 54%, 58%)",
   "color_accent": "hsl(154, 48%, 54%)"
 }
