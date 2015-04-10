@@ -3,8 +3,15 @@
   "version": "0.1.0",
   "description": "branding variables and assets",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/movementventures/branding"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ui-kit": "git+https://github.com/movementventures/ui-kit.git"
   },
   "author": "Michael Andrew Vanasse <mike@movementventures.com>",
   "license": "MIT"
