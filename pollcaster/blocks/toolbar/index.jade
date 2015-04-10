@@ -30,5 +30,8 @@ Toolbar.bg-white
           t('auth.actions.log-out' _="Log out")
     GetContent(name="toolbar-right")
     SetContent(name="toolbar-right" depth=0)
-      CreatePoll(template=createForm account=account)
+      a.create-button.button.button-accent.hover-bg-accent-dark.rounded()&props(linkProps.createPoll)
+        i.icon.icon-compose
+        span.caps.ml1.lte-320-hide.gte-640-hide: t('labels.create' _='Create')
+        span.caps.ml1.lte-640-hide: t('labels.create-a-poll' _='Create a poll')
 
