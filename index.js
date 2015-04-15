@@ -19,6 +19,7 @@ out.h8 = '.875rem';
 out.h9 = '.75rem';
 out.h10 = '.625rem';
 out.boldFontWeight = 'bold';
+out.spaceScale = '.5rem';
 out.space1 = '.5rem';
 out.space2 = '1rem';
 out.space3 = '2rem';
