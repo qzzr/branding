@@ -81,4 +81,15 @@ out.space8 = '2rem';
 out.space9 = '2.25rem';
 out.space10 = '2.5rem';
 
+out.spaceScale1 = '.25';
+out.spaceScale2 = '.5';
+out.spaceScale3 = '.75';
+out.spaceScale4 = '1';
+out.spaceScale5 = '1.25';
+out.spaceScale6 = '1.5';
+out.spaceScale7 = '1.75';
+out.spaceScale8 = '2';
+out.spaceScale9 = '2.25';
+out.spaceScale10 = '2.5';
+
 exports['default'] = module.exports = out;
