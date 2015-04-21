@@ -19,10 +19,6 @@ out.h8 = '.875rem';
 out.h9 = '.75rem';
 out.h10 = '.625rem';
 out.boldFontWeight = 'bold';
-out.space1 = '.5rem';
-out.space2 = '1rem';
-out.space3 = '2rem';
-out.space4 = '4rem';
 out.buttonFontSize = 'inherit';
 out.buttonFontWeight = 'bold';
 out.buttonLineHeight = '1.125rem';
@@ -71,5 +67,18 @@ out.shadow2 = '0 6px 10px hsla(0, 0%, 0%, 0.3), 0 2px 2px hsla(0, 0%, 0%, 0.2)';
 out.shadow3 = '0 13px 25px hsla(0, 0%, 0%, 0.3), 0 11px 7px hsla(0, 0%, 0%, 0.19)';
 out.shadow4 = '0 20px 40px hsla(0, 0%, 0%, 0.3), 0 14px 12px hsla(0, 0%, 0%, 0.17)';
 out.shadow5 = '0 27px 55px hsla(0, 0%, 0%, 0.3), 0 17px 17px hsla(0, 0%, 0%, 0.15)';
+
+// spacing
+
+out.space1 = '.25rem';
+out.space2 = '.5rem';
+out.space3 = '.75rem';
+out.space4 = '1rem';
+out.space5 = '1.25rem';
+out.space6 = '1.5rem';
+out.space7 = '1.75rem';
+out.space8 = '2rem';
+out.space9 = '2.25rem';
+out.space10 = '2.5rem';
 
 exports['default'] = module.exports = out;
