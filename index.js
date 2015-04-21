@@ -21,9 +21,9 @@ out.h10 = '.625rem';
 out.boldFontWeight = 'bold';
 out.buttonFontSize = 'inherit';
 out.buttonFontWeight = 'bold';
-out.buttonLineHeight = '1.125rem';
-out.buttonPaddingY = '.5rem';
-out.buttonPaddingX = '1rem';
+out.buttonLineHeight = '20px';
+out.buttonPaddingY = '.75rem';
+out.buttonPaddingX = '1.5rem';
 out.containerWidth = '672px';
 
 // colors
