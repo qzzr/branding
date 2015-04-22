@@ -120,4 +120,17 @@ out.spaceScale22 = '5.5';
 out.spaceScale23 = '5.75';
 out.spaceScale24 = '6';
 
+// font sizes
+
+out.h1 = '66px';
+out.h2 = '48px';
+out.h3 = '36px';
+out.h4 = '24px';
+out.h5 = '21px';
+out.h6 = '18px';
+out.h7 = '16px';
+out.h8 = '14px';
+out.h9 = '12px';
+out.h10 = '10px';
+
 exports['default'] = module.exports = out;
