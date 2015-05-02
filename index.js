@@ -30,6 +30,7 @@ out.containerWidth = '672px';
 
 out.color = {};
 
+out.color.azure = 'hsl(234, 42%, 95%)';
 out.color.red = 'hsl(2, 69%, 59%)';
 out.color.orange = 'hsl(35, 80%, 58%)';
 out.color.yellow = 'hsl(49, 75%, 50%)';
@@ -39,7 +40,7 @@ out.color.blue = 'hsl(220, 60%, 62%)';
 out.color.cyan = 'hsl(181, 48%, 58%)';
 out.color.violet = 'hsl(271, 54%, 58%)';
 
-out.color.white = 'hsl(234, 42%, 95%)';
+out.color.white = 'hsl(234, 42%, 100%)';
 out.color.silver = 'hsl(204, 9%, 89%)';
 out.color.gray = 'hsl(210, 11%, 47%)';
 out.color.grayBlue = 'hsl(210, 15%, 33%)';
