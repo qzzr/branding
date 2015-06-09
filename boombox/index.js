@@ -7,4 +7,4 @@ exports.color.blue = 'hsl(220, 73%, 59%)';
 exports.color.charcoal = 'hsl(210, 17%, 25%)';
 
 exports.color.primary = exports.color.blue;
-exports.color.accent = exports.color.red;
+exports.color.accent = exports.color.blue;
