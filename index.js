@@ -44,7 +44,9 @@ out.color.white = 'hsl(234, 42%, 100%)';
 out.color.silver = 'hsl(204, 9%, 89%)';
 out.color.gray = 'hsl(210, 11%, 47%)';
 out.color.grayBlue = 'hsl(210, 15%, 33%)';
+out.color.charcoal = 'hsl(210, 17%, 25%)';
 out.color.black = 'hsl(210, 6%, 14%)';
+
 
 out.color.primary = out.color.red;
 out.color.accent = out.color.cyan;
