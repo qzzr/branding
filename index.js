@@ -55,6 +55,14 @@ out.color.info = out.color.blue;
 out.color.warn = out.color.orange;
 out.color.bad = out.color.red;
 
+out.color.facebook = '#3B5998';
+out.color.twitter = '#4099ff';
+out.color.gplus = '#de4b3a';
+out.color.tumblr = '#37465c';
+out.color.reddit = '#c8def6';
+out.color.pinterest = '#c9232d';
+out.color.linkedin = '#4875B4';
+
 // borders
 
 out.borderWidth = '2px';
