@@ -31,22 +31,23 @@ out.containerWidth = '672px';
 out.color = {};
 
 out.color.azure = 'hsl(234, 42%, 95%)';
-out.color.red = 'hsl(2, 69%, 59%)';
-out.color.orange = 'hsl(35, 80%, 58%)';
-out.color.yellow = 'hsl(49, 75%, 50%)';
-out.color.green = 'hsl(154, 48%, 54%)';
-out.color.lightGreen = 'hsl(76, 58%, 61%)';
+out.color.black = 'hsl(210, 24%, 13%)';
 out.color.blue = 'hsl(220, 60%, 62%)';
+out.color.charcoal = 'hsl(210, 17%, 25%)';
 out.color.cyan = 'hsl(181, 48%, 58%)';
-out.color.violet = 'hsl(271, 54%, 58%)';
-
-out.color.white = 'hsl(234, 42%, 100%)';
-out.color.silver = 'hsl(204, 9%, 89%)';
 out.color.gray = 'hsl(210, 11%, 47%)';
 out.color.grayBlue = 'hsl(210, 15%, 33%)';
-out.color.charcoal = 'hsl(210, 17%, 25%)';
-out.color.black = 'hsl(210, 6%, 14%)';
-
+out.color.green = 'hsl(154, 48%, 54%)';
+out.color.lightGreen = 'hsl(76, 58%, 61%)';
+out.color.orange = 'hsl(35, 80%, 58%)';
+out.color.pink = 'hsl(303, 78%, 73%)';
+out.color.red = 'hsl(2, 69%, 59%)';
+out.color.redOrange = 'hsl(12, 73%, 59%)';
+out.color.royal = 'hsl(220, 73%, 59%)';
+out.color.silver = 'hsl(204, 9%, 89%)';
+out.color.violet = 'hsl(271, 54%, 58%)';
+out.color.white = 'hsl(234, 42%, 100%)';
+out.color.yellow = 'hsl(49, 75%, 50%)';
 
 out.color.primary = out.color.red;
 out.color.accent = out.color.cyan;
@@ -55,6 +56,14 @@ out.color.good = out.color.green;
 out.color.info = out.color.blue;
 out.color.warn = out.color.orange;
 out.color.bad = out.color.red;
+
+out.color.facebook = '#3B5998';
+out.color.twitter = '#4099ff';
+out.color.gplus = '#de4b3a';
+out.color.tumblr = '#37465c';
+out.color.reddit = '#c8def6';
+out.color.pinterest = '#c9232d';
+out.color.linkedin = '#4875B4';
 
 // borders
 
