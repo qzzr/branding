@@ -2,15 +2,15 @@ var types = {Thin: 100, Light: 300, Regular: 400, Medium: 500, Bold: 700, Black:
 
 each weight, name in types
   @font-face
-    = "font-family: 'Colfax';"
-    = "src: url('./ColfaxWeb" + name + ".eot');"
-    = "src: url('./ColfaxWeb" + name + ".woff') format('woff');"
-    = "font-weight: " + weight + ";"
-    = "font-style: normal;"
+    font-family Colfax
+    font-style normal
+    font-weight = weight
+    src = 'url(./ColfaxWeb' + name + '.eot)'
+    src = 'url(./ColfaxWeb' + name + '.woff) format("woff")'
 
   @font-face
-    = "font-family: 'Colfax';"
-    = "src: url('./ColfaxWeb" + name + "Italic.eot');"
-    = "src: url('./ColfaxWeb" + name + "Italic.woff') format('woff');"
-    = "font-weight: " + weight + ";"
-    = "font-style: italic;"
+    font-family Colfax
+    font-style italic
+    font-weight = weight
+    src = 'url(./ColfaxWeb' + name + 'Italic.eot)'
+    src = 'url(./ColfaxWeb' + name + 'Italic.woff) format("woff")'
