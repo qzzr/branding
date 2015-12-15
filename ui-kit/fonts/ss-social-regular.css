@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*
+* Symbolset
+* www.symbolset.com
+* Copyright © 2014 Oak Studios LLC
+*
+* Upload this file to your web server
+* and place this within your <head> tags.
+* <link href="webfonts/ss-social-regular.css" rel="stylesheet" />
+*/
+
+@font-face {
+  font-family: "SSSocialRegular";
+  src: url('./ss-social-regular.eot');
+  src: url('./ss-social-regular.eot?#iefix') format('embedded-opentype'),
+       url('./ss-social-regular.woff') format('woff'),
+       url('./ss-social-regular.ttf')  format('truetype'),
+       url('./ss-social-regular.svg#SSSocialRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* This triggers a redraw in IE to Fix IE8's :before content rendering. */
+html:hover [class^="icon-"]{-ms-zoom: 1;}
+
+.icon-social:before {
+  font-family: "SSSocialRegular";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"].right:before,
+[class*=" icon-"].right:before{display:none;content:'';}
+
+.icon-facebook:before,.icon-facebook.right:after{content:''}.icon-twitter:before,.icon-twitter.right:after{content:''}.icon-googleplus:before,.icon-googleplus.right:after{content:''}.icon-appdotnet:before,.icon-appdotnet.right:after{content:''}.icon-ello:before,.icon-ello.right:after{content:''}.icon-aboutme:before,.icon-aboutme.right:after{content:''}.icon-vk:before,.icon-vk.right:after{content:''}.icon-weibo:before,.icon-weibo.right:after{content:''}.icon-linkedin:before,.icon-linkedin.right:after{content:''}.icon-zerply:before,.icon-zerply.right:after{content:''}.icon-xing:before,.icon-xing.right:after{content:''}.icon-reddit:before,.icon-reddit.right:after{content:''}.icon-steam:before,.icon-steam.right:after{content:''}.icon-tumblr:before,.icon-tumblr.right:after{content:''}.icon-wordpress:before,.icon-wordpress.right:after{content:''}.icon-blogger:before,.icon-blogger.right:after{content:''}.icon-quora:before,.icon-quora.right:after{content:''}.icon-youtube:before,.icon-youtube.right:after{content:''}.icon-vimeo:before,.icon-vimeo.right:after{content:''}.icon-vine:before,.icon-vine.right:after{content:''}.icon-letterboxd:before,.icon-letterboxd.right:after{content:''}.icon-flickr:before,.icon-flickr.right:after{content:''}.icon-instagram:before,.icon-instagram.right:after{content:''}.icon-vscogrid:before,.icon-vscogrid.right:after{content:''}.icon-fivehundredpx:before,.icon-fivehundredpx.right:after{content:''}.icon-feedly:before,.icon-feedly.right:after{content:''}.icon-pinterest:before,.icon-pinterest.right:after{content:''}.icon-dropbox:before,.icon-dropbox.right:after{content:''}.icon-pinboard:before,.icon-pinboard.right:after{content:''}.icon-delicious:before,.icon-delicious.right:after{content:''}.icon-dribbble:before,.icon-dribbble.right:after{content:''}.icon-behance:before,.icon-behance.right:after{content:''}.icon-github:before,.icon-github.right:after{content:''}.icon-bitbucket:before,.icon-bitbucket.right:after{content:''}.icon-stackoverflow:before,.icon-stackoverflow.right:after{content:''}.icon-stackexchange:before,.icon-stackexchange.right:after{content:''}.icon-codepen:before,.icon-codepen.right:after{content:''}.icon-jsfiddle:before,.icon-jsfiddle.right:after{content:''}.icon-paypal:before,.icon-paypal.right:after{content:''}.icon-shopify:before,.icon-shopify.right:after{content:''}.icon-kickstarter:before,.icon-kickstarter.right:after{content:''}.icon-etsy:before,.icon-etsy.right:after{content:''}.icon-foursquare:before,.icon-foursquare.right:after{content:''}.icon-swarm:before,.icon-swarm.right:after{content:''}.icon-yelp:before,.icon-yelp.right:after{content:''}.icon-skype:before,.icon-skype.right:after{content:''}.icon-whatsapp:before,.icon-whatsapp.right:after{content:''}.icon-rdio:before,.icon-rdio.right:after{content:''}.icon-spotify:before,.icon-spotify.right:after{content:''}.icon-lastfm:before,.icon-lastfm.right:after{content:''}.icon-soundcloud:before,.icon-soundcloud.right:after{content:''}.icon-appstore:before,.icon-appstore.right:after{content:''}.icon-googleplay:before,.icon-googleplay.right:after{content:''}.icon-appleinc:before,.icon-appleinc.right:after{content:''}.icon-microsoft:before,.icon-microsoft.right:after{content:''}.icon-windows:before,.icon-windows.right:after{content:''}.icon-android:before,.icon-android.right:after{content:''}.icon-blackberry:before,.icon-blackberry.right:after{content:''}.icon-link:before,.icon-link.right:after{content:'🔗'}.icon-phone:before,.icon-phone.right:after{content:'📞'}.icon-mail:before,.icon-mail.right:after{content:'✉'}.icon-like:before,.icon-like.right:after{content:'👍'}.icon-rss:before,.icon-rss.right:after{content:''}.icon-share:before,.icon-share.right:after{content:''}
+/* Legacy */
+.icon-fivehundredpx:before,.icon-fivehundredpx.right:after{content:''},.icon-octocat:before,.icon-octocat.right:after{content:''}
