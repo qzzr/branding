@@ -48,6 +48,7 @@ out.color.silver = 'hsl(204, 9%, 89%)';
 out.color.violet = 'hsl(271, 54%, 58%)';
 out.color.white = 'hsl(234, 42%, 100%)';
 out.color.yellow = 'hsl(49, 75%, 50%)';
+out.color.brown = 'hsl(50, 73%, 26%)';
 
 out.color.primary = out.color.red;
 out.color.accent = out.color.cyan;
