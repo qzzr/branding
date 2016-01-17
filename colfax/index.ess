@@ -1,16 +1,17 @@
 var types = {Thin: 100, Light: 300, Regular: 400, Medium: 500, Bold: 700, Black: 900}
+- const context = require.context('./', false, /ColfaxWeb/)
 
 each weight, name in types
   @font-face
     font-family Colfax
     font-style normal
     font-weight = weight
-    src = 'url(./ColfaxWeb' + name + '.eot)'
-    src = 'url(./ColfaxWeb' + name + '.woff) format("woff")'
+    src = 'url(' + JSON.stringify(context('./ColfaxWeb' + name + '.eot')) + ')'
+    src = 'url(' + JSON.stringify(context('./ColfaxWeb' + name + '.woff')) + ') format("woff")'
 
   @font-face
     font-family Colfax
     font-style italic
     font-weight = weight
-    src = 'url(./ColfaxWeb' + name + 'Italic.eot)'
-    src = 'url(./ColfaxWeb' + name + 'Italic.woff) format("woff")'
+    src = 'url(' + JSON.stringify(context('./ColfaxWeb' + name + 'Italic.eot')) + ')'
+    src = 'url(' + JSON.stringify(context('./ColfaxWeb' + name + 'Italic.woff')) + ') format("woff")'
