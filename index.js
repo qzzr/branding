@@ -2,12 +2,13 @@ var out = {};
 
 // font
 
-out.fontFamily = "Colfax, effra, 'Helvetica Neue', Helvetica, sans-serif";
+out.fontFamily = "Colfax, 'Helvetica Neue', 'Arial', sans-serif";
+out.fontFamilyHelvetica = "'Helvetica Neue', 'Arial', sans-serif";
 out.lineHeight = '1.5';
 out.headingFontFamily = out.fontFamily;
 out.headingFontWeight = 'bold';
 out.headingLineHeight = '1.25';
-out.monospaceFontFamily = "'Source Code Pro', Consolas, monospace",
+out.monospaceFontFamily = "'Source Code Pro', Menlo, Consolas, monospace",
 out.h1 = '2rem';
 out.h2 = '1.5rem';
 out.h3 = '1.25rem';
@@ -32,6 +33,7 @@ out.color = {};
 
 out.color.azure = 'hsl(234, 42%, 95%)';
 out.color.black = 'hsl(210, 24%, 13%)';
+out.color.jetBlack = 'hsla(210, 25%, 5%, 1)';
 out.color.blue = 'hsl(220, 60%, 62%)';
 out.color.charcoal = 'hsl(210, 17%, 25%)';
 out.color.cyan = 'hsl(181, 48%, 58%)';
