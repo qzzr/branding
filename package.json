@@ -1,5 +1,5 @@
 {
-  "name": "branding",
+  "name": "@movementventures/branding",
   "version": "0.1.0",
   "description": "branding variables and assets",
   "main": "index.js",
