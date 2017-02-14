@@ -1,5 +1,5 @@
 {
-  "name": "@movementventures/branding",
+  "name": "@qzzr/branding",
   "version": "0.2.0",
   "description": "branding variables and assets",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Michael Andrew Vanasse <mike@movementventures.com>",
+  "author": "",
   "license": "MIT"
 }
