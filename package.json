@@ -1,6 +1,6 @@
 {
   "name": "@qzzr/branding",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "branding variables and assets",
   "main": "index.js",
   "repository": {
