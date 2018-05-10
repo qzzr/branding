@@ -1,0 +1,17 @@
+var types = {Hairline: 100, Thin: 200, Light: 300, Regular: 400, Medium: 500, Bold: 700, Black: 900}
+- const context = require.context('./', false, /Sailec/)
+
+each weight, name in types
+  @font-face
+    font-family Sailec
+    font-style normal
+    font-weight = weight
+    src = 'url(' + JSON.stringify(context('./Sailec' + name + '.eot')) + ')'
+    src = 'url(' + JSON.stringify(context('./Sailec' + name + '.woff')) + ') format("woff")'
+
+  @font-face
+    font-family Sailec
+    font-style italic
+    font-weight = weight
+    src = 'url(' + JSON.stringify(context('./Sailec' + name + 'Italic.eot')) + ')'
+    src = 'url(' + JSON.stringify(context('./Sailec' + name + 'Italic.woff')) + ') format("woff")'
