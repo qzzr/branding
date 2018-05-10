@@ -2,7 +2,7 @@ var out = {};
 
 // font
 
-out.fontFamily = "Colfax, 'Helvetica Neue', 'Arial', sans-serif";
+out.fontFamily = "Sailec, 'Helvetica Neue', 'Arial', sans-serif";
 out.fontFamilyHelvetica = "'Helvetica Neue', 'Arial', sans-serif";
 out.lineHeight = '1.5';
 out.headingFontFamily = out.fontFamily;
