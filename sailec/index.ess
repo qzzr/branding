@@ -3,14 +3,14 @@ var types = {Hairline: 100, Thin: 200, Light: 300, Regular: 400, Medium: 500, Bo
 
 each weight, name in types
   @font-face
-    font-family Sailec
+    font-family SailecWeb
     font-style normal
     font-weight = weight
     src = 'url(' + JSON.stringify(context('./Sailec' + name + '.eot')) + ')'
     src = 'url(' + JSON.stringify(context('./Sailec' + name + '.woff')) + ') format("woff")'
 
   @font-face
-    font-family Sailec
+    font-family SailecWeb
     font-style italic
     font-weight = weight
     src = 'url(' + JSON.stringify(context('./Sailec' + name + 'Italic.eot')) + ')'

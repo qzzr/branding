@@ -2,7 +2,7 @@ var out = {};
 
 // font
 
-out.fontFamily = "Sailec, 'Helvetica Neue', 'Arial', sans-serif";
+out.fontFamily = "SailecWeb, 'Helvetica Neue', 'Arial', sans-serif";
 out.fontFamilyHelvetica = "'Helvetica Neue', 'Arial', sans-serif";
 out.lineHeight = '1.5';
 out.headingFontFamily = out.fontFamily;
@@ -22,7 +22,7 @@ out.containerWidth = '672px';
 out.color = {};
 
 out.color.azure = 'hsl(234, 42%, 95%)';
-out.color.black = 'hsl(210, 24%, 13%)';
+out.color.black = 'hsl(0, 0%, 0%)';
 out.color.jetBlack = 'hsla(210, 25%, 5%, 1)';
 out.color.blue = 'hsl(220, 60%, 62%)';
 out.color.charcoal = 'hsl(210, 17%, 25%)';
@@ -37,7 +37,7 @@ out.color.red = 'hsl(2, 64%, 54%)';
 out.color.redOrange = 'hsl(12, 73%, 59%)';
 out.color.royal = 'hsl(220, 73%, 59%)';
 out.color.silver = 'hsl(204, 9%, 89%)';
-out.color.violet = 'hsl(271, 54%, 58%)';
+out.color.violet = 'hsl(245, 81%, 58%)';
 out.color.white = 'hsl(234, 42%, 100%)';
 out.color.yellow = 'hsl(49, 75%, 50%)';
 out.color.brown = 'hsl(50, 73%, 26%)';
