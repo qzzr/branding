@@ -21,29 +21,35 @@ out.containerWidth = '672px';
 
 out.color = {};
 
-out.color.azure = 'hsl(234, 42%, 95%)';
 out.color.black = 'hsl(0, 0%, 0%)';
-out.color.jetBlack = 'hsla(210, 25%, 5%, 1)';
+out.color.white = 'hsl(0, 0%, 100%)';
+
+out.color.violet = 'hsl(246, 74%, 55%)';
+out.color.violetLight = 'hsl(246, 100%, 66%)';
+out.color.green = 'hsl(146, 79%, 28%)';
+out.color.greenLight = 'hsl(146, 73%, 37%)';
+out.color.red = 'hsl(0, 65%, 42%)';
+out.color.redLight = 'hsl(0, 65%, 57%)';
+out.color.yellow = 'hsl(49, 79%, 52%)';
+out.color.yellowDark = 'hsl(39, 100%, 31%)';
+
+out.color.azure = 'hsl(234, 42%, 95%)';
 out.color.blue = 'hsl(220, 60%, 62%)';
-out.color.charcoal = 'hsl(210, 17%, 25%)';
+out.color.jetBlack = 'hsla(210, 25%, 5%, 1)';
+out.color.charcoal = 'hsl(0, 0%, 12%)';
 out.color.cyan = 'hsl(181, 48%, 58%)';
 out.color.gray = 'hsl(210, 11%, 47%)';
 out.color.grayBlue = 'hsl(210, 15%, 33%)';
-out.color.green = 'hsl(168, 91%, 27%)';
 out.color.lightGreen = 'hsl(76, 58%, 61%)';
 out.color.orange = 'hsl(35, 80%, 58%)';
 out.color.pink = 'hsl(303, 78%, 73%)';
-out.color.red = 'hsl(2, 64%, 54%)';
 out.color.redOrange = 'hsl(12, 73%, 59%)';
 out.color.royal = 'hsl(220, 73%, 59%)';
 out.color.silver = 'hsl(204, 9%, 89%)';
-out.color.violet = 'hsl(245, 81%, 58%)';
-out.color.white = 'hsl(234, 42%, 100%)';
-out.color.yellow = 'hsl(49, 75%, 50%)';
 out.color.brown = 'hsl(50, 73%, 26%)';
 
-out.color.primary = out.color.red;
-out.color.accent = out.color.cyan;
+out.color.primary = out.color.violet;
+out.color.accent = out.color.green;
 
 out.color.good = out.color.green;
 out.color.info = out.color.blue;
