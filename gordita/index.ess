@@ -3,15 +3,15 @@ var types = {Regular: 400, Bold: 700}
 
 each weight, name in types
   @font-face
-    font-family SailecWeb
+    font-family GorditaWeb
     font-style normal
     font-weight = weight
     src = 'url(' + JSON.stringify(context('./Gordita' + name + '.woff')) + ')'
-    src = 'url(' + JSON.stringify(context('./Gordita' + name + '.woff2')) + ') format("woff")'
+    src = 'url(' + JSON.stringify(context('./Gordita' + name + '2.woff')) + ') format("woff")'
 
   @font-face
     font-family GorditaWeb
     font-style italic
     font-weight = weight
     src = 'url(' + JSON.stringify(context('./Gordita' + name + 'Italic.woff')) + ')'
-    src = 'url(' + JSON.stringify(context('./Gordita' + name + 'Italic.woff2')) + ') format("woff")'
+    src = 'url(' + JSON.stringify(context('./Gordita' + name + 'Italic2.woff')) + ') format("woff")'
