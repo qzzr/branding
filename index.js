@@ -48,8 +48,8 @@ out.color.royal = 'hsl(220, 73%, 59%)';
 out.color.silver = 'hsl(204, 9%, 89%)';
 out.color.brown = 'hsl(50, 73%, 26%)';
 
-out.color.primary = out.color.violet;
-out.color.accent = out.color.green;
+out.color.primary = out.color.green;
+out.color.accent = out.color.violet;
 
 out.color.good = out.color.green;
 out.color.info = out.color.blue;
