@@ -26,6 +26,8 @@ out.color.white = 'hsl(0, 0%, 100%)';
 
 out.color.violet = 'hsl(256, 97%, 65%)';
 out.color.violetLight = 'hsl(256, 97%, 75%)';
+out.color.coolGreen = 'hsl(155, 77%, 50%)';
+out.color.coolGreenLight = 'hsl(155, 77%, 60%)';
 out.color.green = 'hsl(155, 77%, 50%)';
 out.color.greenLight = 'hsl(155, 77%, 60%)';
 out.color.red = 'hsl(0, 65%, 42%)';

@@ -3,7 +3,7 @@ exports = module.exports = require('../');
 exports.brandName = 'qzzr';
 exports.theme = 'dark';
 exports.color = exports.color || {};
-exports.color.primary = exports.color.green;
+exports.color.primary = exports.color.coolGreen;
 exports.color.accent = exports.color.violet;
 exports.color.backgroundColor = exports.color.black;
 exports.color.textColor = exports.color.white;
